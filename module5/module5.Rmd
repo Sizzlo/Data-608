@@ -1,0 +1,15 @@
+---
+title: "DATA 608 - Module 5"
+author: "Tony"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    toc: true
+  pdf_document: default
+---
+
+```{r echo=FALSE}
+library(shiny)
+ui <- htmlTemplate("template.html")
+shinyUI(ui)
+```
